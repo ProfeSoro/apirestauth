@@ -65,6 +65,7 @@ class Authentication extends AuthModel
 
 	/**
 	 * Método para verificar si un token es válido cuando se realiza una petición a la API
+	 * El token se manda como header poniendo en name "api-key" y como value el valor del token
 	 */
 	public function verify()
     {
